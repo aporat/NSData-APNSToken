@@ -43,9 +43,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		532BFE84185F56C600D991DD /* NSData+APNSToken-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+APNSToken-Prefix.pch"; path = "NSData+APNSTokenTests/NSData+APNSToken-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		53B5EFAB185E14D400F9F719 /* libNSData+APNSToken.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libNSData+APNSToken.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53B5EFAE185E14D400F9F719 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		53B5EFB2185E14D400F9F719 /* NSData+APNSToken-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+APNSToken-Prefix.pch"; sourceTree = "<group>"; };
 		53B5EFB3185E14D400F9F719 /* NSData+APNSToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+APNSToken.h"; sourceTree = "<group>"; };
 		53B5EFB5185E14D400F9F719 /* NSData+APNSToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+APNSToken.m"; sourceTree = "<group>"; };
 		53B5EFBB185E14D400F9F719 /* NSData+APNSTokenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSData+APNSTokenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,7 +121,7 @@
 		53B5EFB1185E14D400F9F719 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				53B5EFB2185E14D400F9F719 /* NSData+APNSToken-Prefix.pch */,
+				532BFE84185F56C600D991DD /* NSData+APNSToken-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
