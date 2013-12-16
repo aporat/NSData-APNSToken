@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		532BFE83185F52ED00D991DD /* NSData+APNSToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B5EFB5185E14D400F9F719 /* NSData+APNSToken.m */; };
 		53B5EFAF185E14D400F9F719 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B5EFAE185E14D400F9F719 /* Foundation.framework */; };
 		53B5EFB4185E14D400F9F719 /* NSData+APNSToken.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 53B5EFB3185E14D400F9F719 /* NSData+APNSToken.h */; };
 		53B5EFB6185E14D400F9F719 /* NSData+APNSToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B5EFB5185E14D400F9F719 /* NSData+APNSToken.m */; };
@@ -232,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				532BFE83185F52ED00D991DD /* NSData+APNSToken.m in Sources */,
 				53B5EFCB185E14D400F9F719 /* NSData_APNSTokenTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
