@@ -4,7 +4,7 @@ NSData+APNSToken adds apns device token method to NSData.
 
 Copy the NSData+APNSToken class into your project or add this line to your [Podfile](http://cocoapods.org/):
 
-	pod 'NSData+', '~> 1.0.0'
+	pod 'NSData+APNSToken', '~> 1.0.0'
 
 ## Quick API overview
 
