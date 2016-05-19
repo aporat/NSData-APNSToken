@@ -1,0 +1,10 @@
+language: objective-c
+
+xcode_project: NSData+APNSToken.xcodeproj
+xcode_scheme: NSData+APNSTokenTests
+osx_image: xcode7.3
+xcode_sdk: iphonesimulator9.3
+
+script:
+  - set -o pipefail && xcodebuild test -project "NSData+APNSToken.xcodeproj" -scheme NSData+APNSTokenTests -destination "platform=iOS Simulator,name=iPhone 6s" | xcpretty
+  - pod lib lint

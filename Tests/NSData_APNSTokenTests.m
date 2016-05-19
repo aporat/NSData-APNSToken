@@ -16,6 +16,7 @@
 #import <XCTest/XCTest.h>
 #import "NSData+APNSToken.h"
 
+
 @interface NSData_APNSTokenTests : XCTestCase
 
 @end
