@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/aporat/NSData+APNSToken.svg?branch=master)](https://travis-ci.org/aporat/NSData+APNSToken) &nbsp;
+[![Build Status](https://travis-ci.org/aporat/NSData-APNSToken.svg?branch=master)](https://travis-ci.org/aporat/NSData-APNSToken) &nbsp;
 ![](http://cocoapod-badges.herokuapp.com/v/NSData+APNSToken/badge.png) &nbsp; ![](http://cocoapod-badges.herokuapp.com/p/NSData+APNSToken/badge.png)
 
 NSData+APNSToken adds apns device token method to NSData.
