@@ -13,10 +13,18 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import <Foundation/Foundation.h>
+import Foundation
 
-@interface NSData (NSData_APNSToken)
+extension Data {
+  
+  public func apnsToken() -> String {
+    var token: String = ""
+    
+    for i in 0 ..< self.count {
+      token += String(format: "%02.2hhx", self[i] as CVarArg)
+    }
 
-- (NSString * __nullable)APNSToken;
-
-@end
+    return token
+  }
+  
+}

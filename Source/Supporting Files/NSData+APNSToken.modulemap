@@ -1,6 +1,0 @@
-framework module NSData_APNSToken {
-  umbrella header "NSData+APNSToken-umbrella.h"
-  
-  export *
-  module * { export * }
-}

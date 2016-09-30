@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		533E2DC81CEE18C2004D12B6 /* NSData+APNSToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 533E2DC61CEE18C2004D12B6 /* NSData+APNSToken.h */; };
-		533E2DC91CEE18C2004D12B6 /* NSData+APNSToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 533E2DC71CEE18C2004D12B6 /* NSData+APNSToken.m */; };
-		533E2DCB1CEE18CB004D12B6 /* NSData+APNSToken-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 533E2DCA1CEE18CB004D12B6 /* NSData+APNSToken-umbrella.h */; };
-		533E2DD01CEE1902004D12B6 /* NSData_APNSTokenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 533E2DCD1CEE18FA004D12B6 /* NSData_APNSTokenTests.m */; };
+		5369A5521D9ED6CC0058BF95 /* APNSToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5369A5511D9ED6CC0058BF95 /* APNSToken.swift */; };
 		6DF7DF781CD5393F0099C320 /* NSData_APNSToken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF7DF6D1CD5393E0099C320 /* NSData_APNSToken.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,26 +22,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C9E0D2C24D9E454232D0A2A /* Pods-AFSignedHTTPRequestOperationManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFSignedHTTPRequestOperationManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFSignedHTTPRequestOperationManagerTests/Pods-AFSignedHTTPRequestOperationManagerTests.release.xcconfig"; sourceTree = "<group>"; };
-		13AF5DB779969EC798C9CC95 /* Pods-AFOAuthClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFOAuthClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFOAuthClientTests/Pods-AFOAuthClientTests.debug.xcconfig"; sourceTree = "<group>"; };
-		402C13070E4150628551EC9D /* Pods_AFOAuthClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFOAuthClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		51E435019484791B907EF0DF /* Pods-AFOAuthClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFOAuthClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFOAuthClient/Pods-AFOAuthClient.release.xcconfig"; sourceTree = "<group>"; };
-		533E2DC61CEE18C2004D12B6 /* NSData+APNSToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+APNSToken.h"; sourceTree = "<group>"; };
-		533E2DC71CEE18C2004D12B6 /* NSData+APNSToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+APNSToken.m"; sourceTree = "<group>"; };
-		533E2DCA1CEE18CB004D12B6 /* NSData+APNSToken-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+APNSToken-umbrella.h"; sourceTree = "<group>"; };
 		533E2DCC1CEE18FA004D12B6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		533E2DCD1CEE18FA004D12B6 /* NSData_APNSTokenTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSData_APNSTokenTests.m; sourceTree = "<group>"; };
+		5369A5511D9ED6CC0058BF95 /* APNSToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APNSToken.swift; sourceTree = "<group>"; };
 		6DF7DF6D1CD5393E0099C320 /* NSData_APNSToken.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSData_APNSToken.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF7DF721CD5393F0099C320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DF7DF771CD5393F0099C320 /* NSData_APNSTokenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSData_APNSTokenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		87BB923384327B71F08CE69E /* Pods-AFSignedHTTPRequestOperationManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFSignedHTTPRequestOperationManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFSignedHTTPRequestOperationManager/Pods-AFSignedHTTPRequestOperationManager.debug.xcconfig"; sourceTree = "<group>"; };
-		A6D83926926B45FAB61DF289 /* Pods-AFSignedHTTPRequestOperationManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFSignedHTTPRequestOperationManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFSignedHTTPRequestOperationManagerTests/Pods-AFSignedHTTPRequestOperationManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A8FCBC250D51E48317E1A929 /* Pods-AFOAuthClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFOAuthClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFOAuthClientTests/Pods-AFOAuthClientTests.release.xcconfig"; sourceTree = "<group>"; };
-		BAA5EDB53F4D5DC82A7EB4EE /* Pods-AFOAuthClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFOAuthClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFOAuthClient/Pods-AFOAuthClient.debug.xcconfig"; sourceTree = "<group>"; };
-		CA8BC8F19DE5848F2E84E6DD /* Pods_AFOAuthClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFOAuthClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5E169C701C679DB6737F0AB /* Pods-AFSignedHTTPRequestOperationManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFSignedHTTPRequestOperationManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFSignedHTTPRequestOperationManager/Pods-AFSignedHTTPRequestOperationManager.release.xcconfig"; sourceTree = "<group>"; };
-		DDCC7DF60969D1D2EAEC9B2D /* Pods_AFSignedHTTPRequestOperationManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFSignedHTTPRequestOperationManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F80062939D100F908649092B /* Pods_AFSignedHTTPRequestOperationManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFSignedHTTPRequestOperationManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +51,6 @@
 		4104F4E5E52814347DB5962F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F80062939D100F908649092B /* Pods_AFSignedHTTPRequestOperationManager.framework */,
-				DDCC7DF60969D1D2EAEC9B2D /* Pods_AFSignedHTTPRequestOperationManagerTests.framework */,
-				402C13070E4150628551EC9D /* Pods_AFOAuthClient.framework */,
-				CA8BC8F19DE5848F2E84E6DD /* Pods_AFOAuthClientTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -100,9 +78,8 @@
 		6DF7DF6F1CD5393E0099C320 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				533E2DC61CEE18C2004D12B6 /* NSData+APNSToken.h */,
-				533E2DC71CEE18C2004D12B6 /* NSData+APNSToken.m */,
 				6DF7DF8D1CD53DEC0099C320 /* Supporting Files */,
+				5369A5511D9ED6CC0058BF95 /* APNSToken.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -111,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				533E2DCC1CEE18FA004D12B6 /* Info.plist */,
-				533E2DCD1CEE18FA004D12B6 /* NSData_APNSTokenTests.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -119,7 +95,6 @@
 		6DF7DF8D1CD53DEC0099C320 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				533E2DCA1CEE18CB004D12B6 /* NSData+APNSToken-umbrella.h */,
 				6DF7DF721CD5393F0099C320 /* Info.plist */,
 			);
 			path = "Supporting Files";
@@ -128,14 +103,6 @@
 		720E4455C75162C2EA170469 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				87BB923384327B71F08CE69E /* Pods-AFSignedHTTPRequestOperationManager.debug.xcconfig */,
-				D5E169C701C679DB6737F0AB /* Pods-AFSignedHTTPRequestOperationManager.release.xcconfig */,
-				A6D83926926B45FAB61DF289 /* Pods-AFSignedHTTPRequestOperationManagerTests.debug.xcconfig */,
-				0C9E0D2C24D9E454232D0A2A /* Pods-AFSignedHTTPRequestOperationManagerTests.release.xcconfig */,
-				BAA5EDB53F4D5DC82A7EB4EE /* Pods-AFOAuthClient.debug.xcconfig */,
-				51E435019484791B907EF0DF /* Pods-AFOAuthClient.release.xcconfig */,
-				13AF5DB779969EC798C9CC95 /* Pods-AFOAuthClientTests.debug.xcconfig */,
-				A8FCBC250D51E48317E1A929 /* Pods-AFOAuthClientTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -147,8 +114,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				533E2DC81CEE18C2004D12B6 /* NSData+APNSToken.h in Headers */,
-				533E2DCB1CEE18CB004D12B6 /* NSData+APNSToken-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,11 +163,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = delba;
 				TargetAttributes = {
 					6DF7DF6C1CD5393E0099C320 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 					6DF7DF761CD5393F0099C320 = {
 						CreatedOnToolsVersion = 7.3;
@@ -249,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				533E2DC91CEE18C2004D12B6 /* NSData+APNSToken.m in Sources */,
+				5369A5521D9ED6CC0058BF95 /* APNSToken.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +223,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				533E2DD01CEE1902004D12B6 /* NSData_APNSTokenTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,15 +244,16 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -328,15 +294,16 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -367,6 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -374,11 +342,11 @@
 				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Source/Supporting Files/NSData+APNSToken.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adarporat.AFOAuthClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -386,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -393,16 +362,17 @@
 				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Source/Supporting Files/NSData+APNSToken.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adarporat.AFOAuthClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		6DF7DF851CD5393F0099C320 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adarporat.AFOAuthClientTests;
@@ -413,6 +383,7 @@
 		6DF7DF861CD5393F0099C320 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adarporat.AFOAuthClientTests;
