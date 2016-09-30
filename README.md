@@ -8,23 +8,19 @@ NSData+APNSToken adds apns device token method to NSData.
 Copy the NSData+APNSToken class into your project or add this line to your [Podfile](http://cocoapods.org/):
 
 ```ruby
-pod 'NSData+APNSToken', '~> 1.0.0'
+pod 'NSData+APNSToken'
 ```
 
 ## Quick API overview
 
-Import the the category class you need:
 
-```objective-c
-@import NSData_APNSToken
-```
 
 After that you can get the apns token as a string from your app delegate:
 
-```objective-c
-- (void)application:(UIApplication * )application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+```swift
+func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+  let apnsToken : String = deviceToken.apnsToken()
 
-  NSString *deviceToken = [deviceToken APNSToken];
 }
 ```
 
