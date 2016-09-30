@@ -18,6 +18,8 @@ pod 'NSData+APNSToken'
 After that you can get the apns token as a string from your app delegate:
 
 ```swift
+import NSData_APNSToken
+
 func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
   let apnsToken : String = deviceToken.apnsToken()
 
